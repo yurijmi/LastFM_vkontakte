@@ -1,0 +1,13 @@
+ru:
+  title: "LastVK - скробблер LastFM для ВКонтакте"
+  description: ""
+
+  welcome_heading: "Добро пожаловать в LastVK"
+  welcome_text: "LastVK это скробблер LastFM для ВКонтакте"
+
+  home: "Главная"
+  about: "О приложении"
+
+  sign_in: "Войти"
+  sign_in_with_LastFM: "Войти через LastFM"
+  sign_in_with_VK: "Войти через ВКонтакте"

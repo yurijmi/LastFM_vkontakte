@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="LastFM Scrobbler for vk.com">
+  <meta name="description" content="<%=t :description %>">
   <meta name="author" content="Yurijmi">
   <link rel="shortcut icon" href="favicon.ico">
 
-  <title>LastFM Scrobbler for vk.com</title>
+  <title><%=t :title %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -27,7 +27,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
+      <span class="sr-only"><%=t :toggle_navigation %></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -37,16 +37,16 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
+      <li class="active"><a href="#"><%=t :home %></a></li>
+      <li><a href="#"><%=t :about_us %></a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=t :sign_in %> <b class="caret"></b></a>
         <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
           <li>
-            <input class="btn btn-primary btn-block" type="button" id="sign-in-vk" value="Sign In with VK">
-            <input class="btn btn-primary btn-block" type="button" id="sign-in-lastfm" value="Sign In with LastFM">
+            <input class="btn btn-primary btn-block" type="button" id="sign-in-vk" value="<%=t :sign_in_with_VK %>">
+            <input class="btn btn-primary btn-block" type="button" id="sign-in-lastfm" value="<%=t :sign_in_with_LastFM %>">
           </li>
         </ul>
       </li>
