@@ -1,11 +1,14 @@
 LastFMVkontakte::Application.routes.draw do
-  get "page/home"
 
-  get "page/terms"
+  scope "(:locale)", locale: /en|ru/ do
+    root to: 'page#home'
 
-  get "page/privacy"
+    match '/terms', to: 'page#terms'
+    match '/privacy', to: 'page#privacy'
+    match '/about', to: 'page#about'
+  end
 
-  get "page/about"
+  root to: 'page#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
