@@ -1,0 +1,86 @@
+.btn-with-icon {
+  position: relative;
+  padding-left: 46px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 36px;
+    line-height: 50px;
+    font-size: 1.7em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  &.btn-lg {
+    padding-left: 75px;
+    :first-child {
+      line-height: 61px;
+      width: 45px;
+      font-size: 1.8em;
+    }
+  }
+  &.btn-sm {
+    padding-left: 38px;
+    :first-child {
+      line-height: 37px;
+      width: 28px;
+      font-size: 1.4em;
+    }
+  }
+  &.btn-xs {
+    padding-left: 30px;
+    :first-child {
+      line-height: 27px;
+      width: 20px;
+      font-size: 1.2em;
+    }
+  }
+}
+
+@mixin vk_disabled {
+  background-color: #587ea3;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+@mixin vk_active {
+  color: #fff;
+  background-color: #4a6a89;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-vk {
+  color: #fff;
+  background-color: #587ea3;
+  border-color: rgba(0, 0, 0, 0.2);
+  &:hover, &:focus, &:active, &.active {
+    @include vk_active
+  }
+  &:active, &.active {
+    background-image: none;
+  }
+  &.disabled, &[disabled] {
+    @include vk_disabled
+  }
+  &.disabled:hover, &[disabled]:hover {
+    @include vk_disabled
+  }
+  &.disabled:focus, &[disabled]:focus {
+    @include vk_disabled
+  }
+  &.disabled:active, &[disabled]:active {
+    @include vk_disabled
+  }
+}
+
+.open .dropdown-toggle.btn-vk {
+  @include vk_active
+}
+
+.open .dropdown-toggle.btn-vk {
+  background-image: none;
+}

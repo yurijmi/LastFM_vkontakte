@@ -7,6 +7,9 @@ gem 'rails', '3.2.6'
 
 gem 'mysql2'
 
+# Dark magic for Bootstrap
+gem 'active_link_to'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

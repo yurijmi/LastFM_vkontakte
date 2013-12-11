@@ -1,9 +1,6 @@
 <div class="jumbotron">
   <h1><%=t :welcome_heading %></h1>
   <p><%=t :welcome_text %></p>
-  <a class="btn btn-primary btn-lg" role="button"><%=t :about %></a>
-  <a class="btn btn-success btn-lg" role="button"><%=t :launch_app %></a>
-  <a class="btn btn-lg btn-social btn-vk">
-    <i class="fa fa-facebook"></i> Sign in with Facebook
-  </a>
+  <a class="btn btn-primary btn-with-icon btn-lg" role="button"><%= fa_icon 'info', text: t(:about) %></a>
+  <a class="btn btn-success btn-with-icon btn-lg" role="button"><%= fa_icon 'play', text: t(:launch) %></a>
 </div>

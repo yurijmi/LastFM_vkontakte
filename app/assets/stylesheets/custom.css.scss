@@ -2,16 +2,25 @@
   margin-bottom: 19px;
 }
 
-#login-nav {
-  input {
-    margin-bottom: 15px;
-  }
-}
-
 .navbar-brand {
   font-size: 2em;
   letter-spacing: -1px;
   font-weight: bold;
+}
+
+.login-menu {
+  padding: 15px;
+  min-width: 250px;
+
+  li {
+    a {
+      background-color: none;
+
+      &:focus {
+        background-color: none;
+      }
+    }
+  }
 }
 
 .jumbotron {

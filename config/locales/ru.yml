@@ -1,15 +1,25 @@
 ru:
+  # Head
   title: "LastVK - скробблер LastFM для ВКонтакте"
   description: ""
 
+  # Jumbotron
   welcome_heading: "Добро пожаловать в LastVK"
   welcome_text: "LastVK это скробблер LastFM для ВКонтакте"
 
+  # Menu
   home: "Главная"
   about: "О приложении"
+  terms: "Пользовательское соглашение"
+  privacy: "Политика конфиденциальности"
 
+  # Sidebar sign in
   sign_in: "Войти"
   sign_in_with_LastFM: "Войти через LastFM"
   sign_in_with_VK: "Войти через ВКонтакте"
 
-  launch_app: "Запустить приложение"
+  # Buttons
+  launch: "Запустить"
+
+  # Other
+  dota_easter_egg: "Нет, не Войд из Доты. Без обид"
