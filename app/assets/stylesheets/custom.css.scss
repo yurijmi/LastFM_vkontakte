@@ -34,3 +34,33 @@
     padding-bottom: 1em;
   }
 }
+
+article {
+  h3 {
+    margin-bottom: 1em;
+  }
+
+  section {
+    padding-left: 2em;
+
+    p {
+      margin-bottom: 1em;
+
+      &:last-child {
+        margin-bottom: 3em;
+      }
+    }
+
+    .pull-me {
+      padding-left: 1em;
+
+      p:last-child {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
+
+.mar-bot {
+  margin-bottom: 1em;
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<%=t :description %>">
   <meta name="author" content="Yurijmi">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="<%= "//#{request.host}:#{request.port}/favicon.ico" %>">
 
   <title><%=t :title %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
