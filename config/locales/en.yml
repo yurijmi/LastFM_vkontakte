@@ -13,6 +13,11 @@ en:
   terms: "Terms and conditions"
   privacy: "Privacy policy"
 
+  # Sidebar language select
+  language: "Language"
+  russian: "Русский"
+  english: "English"
+
   # Sidebar sign in
   sign_in: "Sign In"
   sign_in_with_LastFM: "Sign In with LastFM"

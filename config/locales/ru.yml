@@ -13,6 +13,11 @@ ru:
   terms: "Пользовательское соглашение"
   privacy: "Политика конфиденциальности"
 
+  # Sidebar language select
+  language: "Язык"
+  russian: "Русский"
+  english: "English"
+
   # Sidebar sign in
   sign_in: "Войти"
   sign_in_with_LastFM: "Войти через LastFM"
