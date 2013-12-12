@@ -1,5 +1,11 @@
 LastFMVkontakte::Application.routes.draw do
 
+  get "app/home"
+
+  get "app/connect"
+
+  get "app/settings"
+
   scope "(:locale)", locale: /en|ru/ do
     root to: 'page#home'
 
