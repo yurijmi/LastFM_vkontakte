@@ -1,20 +1,16 @@
 LastFMVkontakte::Application.routes.draw do
 
-  get "app/home"
-
-  get "app/connect"
-
-  get "app/settings"
-
   scope "(:locale)", locale: /en|ru/ do
     root to: 'page#home'
 
     match '/terms', to: 'page#terms'
     match '/privacy', to: 'page#privacy'
     match '/about', to: 'page#about'
-  end
 
-  root to: 'page#home'
+    match '/app', to: 'app#home'
+    get 'app/connect'
+    get 'app/settings'
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
