@@ -1,3 +1,25 @@
 en:
+  # Head
+  title: "LastVK - LastFM scrobbler for vk.com"
+  description: ""
+
+  # Jumbotron
   welcome_heading: "Welcome to LastVK"
   welcome_text: "LastVK is a LastFM scrobbler for vk.com"
+
+  # Menu
+  home: "Home"
+  about: "About"
+  terms: "Terms and conditions"
+  privacy: "Privacy policy"
+
+  # Sidebar sign in
+  sign_in: "Sign In"
+  sign_in_with_LastFM: "Sign In with LastFM"
+  sign_in_with_VK: "Sign In with VK.com"
+
+  # Buttons
+  launch: "Launch the app"
+
+  # Other
+  dota_easter_egg: "No, not the Dota Void. No offence"
