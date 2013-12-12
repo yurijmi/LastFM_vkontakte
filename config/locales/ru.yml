@@ -8,10 +8,12 @@ ru:
   welcome_text: "LastVK это скробблер LastFM для ВКонтакте"
 
   # Menu
+  toggle_navigation: "Показать меню"
   home: "Главная"
   about: "О приложении"
   terms: "Пользовательское соглашение"
   privacy: "Политика конфиденциальности"
+  change_settings: "Изменить настройки"
 
   # Sidebar language select
   language: "Язык"
