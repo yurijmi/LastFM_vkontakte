@@ -10,6 +10,9 @@ gem 'mysql2'
 # Dark magic for Bootstrap
 gem 'active_link_to'
 
+# Vk Api
+gem 'vkontakte_api', '~> 1.3'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
